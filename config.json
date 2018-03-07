@@ -1,0 +1,25 @@
+{
+	"logBasePath" : "/var/log",
+	"containers" : [
+		{
+			"name" : "test-app-1",
+			"logFrequencyInSeconds" : 5
+		},
+		{
+			"name" : "test-app-2",
+			"logFrequencyInSeconds" : 10
+		},
+		{
+			"name" : "test-app-3",
+			"logFrequencyInSeconds" : 15
+		},
+		{
+			"name" : "test-app-4",
+			"logFrequencyInSeconds" : 10
+		},
+		{
+			"name" : "test-app-5",
+			"logFrequencyInSeconds" : 5
+		}
+	]
+}
